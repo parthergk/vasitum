@@ -1,12 +1,15 @@
 import Dashboard from "@/components/Dashboard";
-import MainMenu from "@/components/SideBar";
-import Image from "next/image";
+import NavBar from "@/components/NavBar";
+import SideBar from "@/components/SideBar";
 
 export default function Home() {
   return (
-    <main className=" flex h-screen">
-      <MainMenu/>
+    <main className="flex w-full h-screen">
+      <SideBar/>
+      <div className=" flex flex-col w-full">
+      <NavBar/>
       <Dashboard/>
-    </main>
+      </div>
+      </main>
   );
 }
