@@ -4,7 +4,6 @@ import {
   BellDot,
   CircleUserRound,
   MessageSquareDot,
-  MessagesSquare,
   Search,
 } from "lucide-react";
 import React, { useState } from "react";

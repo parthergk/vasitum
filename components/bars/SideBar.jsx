@@ -1,7 +1,7 @@
 import { Boxes, Calendar, Headset, LayoutDashboard, Settings, UserPlus, Users } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import Section from "./Section";
+import Section from "../Section";
 
 const SideBar = ({isOpen}) => {
   const sections = [
@@ -11,7 +11,7 @@ const SideBar = ({isOpen}) => {
         { name: "Dashboard", icon: LayoutDashboard },
         { name: "Recruitment", icon: UserPlus },
         { name: "Schedule", icon: Calendar },
-        { name: "Employee", icon: Users },
+        { name: "Employe", icon: Users },
         { name: "Department", icon: Boxes },
       ],
     },
