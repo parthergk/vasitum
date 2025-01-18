@@ -11,7 +11,7 @@ import React, { useState } from "react";
 const NavBar = ({ setIsOpen }) => {
   const [input, setInput] = useState("");
   return (
-    <div className=" w-full h-[61px] px-5 py-8 flex justify-between items-center border-b border-b-neutral-300">
+    <div className="w-full h-[61px] px-5 py-8 flex justify-between items-center border-b border-b-neutral-300">
       <div className=" flex space-x-5 items-center">
         <div
           onClick={() => {
